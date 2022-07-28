@@ -7,7 +7,7 @@ import { galleryItems } from './gallery-items';
 const creatList = galleryItems
   .map((galleryItem) =>`<a class="gallery__link" href="${galleryItem.original}">
     <img
-      class="gallery__image"
+      class="gallery__image"npm install simplelightbox
       src="${galleryItem.preview}"
       data-source="${galleryItem.original}"
       alt="${galleryItem.description}"
