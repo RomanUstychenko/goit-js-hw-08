@@ -42,6 +42,3 @@ function input() {
     } catch (error) {
     }
   }
-
- 
- 
